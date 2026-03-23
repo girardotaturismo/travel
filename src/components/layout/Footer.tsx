@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { navegacion } from "@/lib/data";
 
 export default function Footer() {
@@ -7,7 +8,14 @@ export default function Footer() {
       <div className="container mx-auto px-4 md:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="space-y-4">
-            <h3 className="font-black text-2xl tracking-tighter">¡Girardota, <span className="text-[#a3cf21]">Te Queremos!</span></h3>
+            <Image 
+              src="/logo2.png" 
+              alt="Girardota Travel Footer Logo" 
+              width={180} 
+              height={60} 
+              className="w-auto h-12 md:h-14 object-contain" 
+              priority={false}
+            />
             <p className="text-sm text-white/80 leading-relaxed max-w-xs">
               Conectando a visitantes y locales con la riqueza cultural, gastronómica, natural y turística del territorio.
             </p>
