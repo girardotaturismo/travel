@@ -11,7 +11,7 @@ export default function Home() {
       <section className="relative w-full h-[600px] md:h-[700px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0 bg-primary/20">
           <Image
-            src="https://images.unsplash.com/photo-1506744626753-1fa44df31c2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+            src="/inicio.png"
             alt="Paisaje de Girardota"
             fill
             sizes="100vw"
