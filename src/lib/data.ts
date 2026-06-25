@@ -74,15 +74,44 @@ export const productosLocales: Entity[] = [
   }
 ];
 
-export const festividades = [
-  'Fiestas Del Señor Caído',
-  'Semana Santa',
-  'Que Delicia Girardota',
-  'Gira La Lectura',
-  'Festival Del Aire',
-  'Semana de la Juventud',
-  'Feria del Chicharrón',
-  'Fiestas de la Danza y el Sainete'
+export interface Festividad {
+  name: string;
+  description: string;
+}
+
+export const festividades: Festividad[] = [
+  {
+    name: 'Fiestas Del Señor Caído',
+    description: 'Una de las celebraciones religiosas más importantes de Girardota y de Antioquia. Cada año, durante el mes de enero, miles de peregrinos y devotos llegan al municipio para rendir homenaje a la imagen del Señor Caído, considerada un símbolo de fe y esperanza. La programación incluye actos litúrgicos, procesiones y espacios de encuentro comunitario, convirtiendo a Girardota en un destino de turismo religioso de gran relevancia regional.'
+  },
+  {
+    name: 'Semana Santa',
+    description: 'Generalmente se realiza en el mes de marzo o abril. Sus solemnes procesiones, celebraciones eucarísticas y representaciones de la pasión, muerte y resurrección de Jesucristo congregan a habitantes y visitantes en un ambiente de reflexión y espiritualidad. Es una de las épocas más representativas para conocer el patrimonio religioso y cultural del municipio.'
+  },
+  {
+    name: 'Qué Delicia Girardota',
+    description: 'Festival gastronómico que exalta la creatividad culinaria y el talento de los emprendedores locales. Durante 10 días, entre finales de junio y comienzos de julio, restaurantes y establecimientos participantes presentan propuestas especiales que invitan a recorrer los sabores del municipio. Además de impulsar la economía local, el evento fortalece a Girardota como un destino gastronómico del norte del Valle de Aburrá.'
+  },
+  {
+    name: 'Gira La Lectura',
+    description: 'Una fiesta cultural que se realiza en el mes de agosto y se dedicada a promover la lectura, la escritura y el conocimiento. A través de encuentros con autores, talleres, exposiciones, actividades artísticas y espacios de formación, este evento acerca los libros a toda la comunidad. Es un escenario que fomenta la imaginación, el aprendizaje y el acceso a la cultura para personas de todas las edades.'
+  },
+  {
+    name: 'Festival del Aire',
+    description: 'Evento que llena el cielo de color y creatividad, que durante el mes de agosto, reune a familias, aficionados y visitantes alrededor del vuelo de cometas y otras actividades recreativas. Este festival promueve el encuentro comunitario, el disfrute de los espacios abiertos y el fortalecimiento de las tradiciones familiares en un ambiente de alegría y convivencia.'
+  },
+  {
+    name: 'Semana de la Juventud',
+    description: 'Celebración que reconoce el talento, la creatividad y el liderazgo de los jóvenes girardotanos. Durante varios días se desarrollan actividades deportivas, culturales, artísticas, recreativas y académicas que promueven la participación juvenil y la construcción de espacios para el desarrollo integral de las nuevas generaciones.'
+  },
+  {
+    name: 'Feria del Chicharrón',
+    description: 'Uno de los eventos gastronómicos más esperados del municipio en el mes de agosto. La feria reúne a emprendedores y amantes de la cocina tradicional alrededor de uno de los sabores más representativos de la cultura antioqueña. Además de las propuestas gastronómica que tienen como ingrediente principal el chicharrón y todo el concurso para premiar las mejores recetas, los asistentes disfrutan de muestras culturales, música en vivo y actividades para toda la familia.'
+  },
+  {
+    name: 'Fiestas de la Danza y el Sainete',
+    description: 'Celebración que rinde homenaje a las expresiones artísticas y folclóricas que hacen parte de la identidad cultural de Girardota. La programación incluye presentaciones de danza, comparsas, música tradicional y sainetes, una manifestación teatral popular cargada de humor y tradición. Estas fiestas destacan el talento local y contribuyen a preservar el patrimonio cultural del municipio.'
+  }
 ];
 
 export const navegacion = [

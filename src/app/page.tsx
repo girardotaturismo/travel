@@ -105,9 +105,9 @@ export default function Home() {
               
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
                 {festividades.map((fest) => (
-                  <li key={fest} className="flex items-center gap-3">
+                  <li key={fest.name} className="flex items-center gap-3">
                     <div className="h-3 w-3 rounded-sm bg-[#a3cf21] text-[#a3cf21]" />
-                    <span className="font-semibold text-foreground/80">{fest}</span>
+                    <span className="font-semibold text-foreground/80">{fest.name}</span>
                   </li>
                 ))}
               </ul>

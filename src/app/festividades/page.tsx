@@ -46,9 +46,9 @@ export default function Festividades() {
                   <CalendarDays className="w-7 h-7 text-amber-500 group-hover:scale-110 transition-transform" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">{fest}</h3>
-                  <p className="text-slate-600 text-sm font-medium">
-                    Un encuentro imperdible lleno de alegría, música y cultura local, diseñado para unir a la comunidad y dar la bienvenida a nuestros visitantes.
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">{fest.name}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed font-medium">
+                    {fest.description}
                   </p>
                 </div>
               </div>
