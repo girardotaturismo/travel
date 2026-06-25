@@ -1,11 +1,10 @@
-export type CategoriaHospedaje = 'Hoteles' | 'Fincas' | 'Glamping';
+export type CategoriaHospedaje = 'Hoteles' | 'Glamping';
 export type CategoriaGastronomia = 'Restaurantes' | 'Cafés';
 export type CategoriaExperiencia =
   | 'Naturaleza'
   | 'Aventura'
   | 'Agroturismo'
   | 'Turismo Cultural'
-  | 'Gastronómicas'
   | 'Ruta Religiosa'
   | 'Ruta Urbana';
 
@@ -48,6 +47,33 @@ export const restaurantes: Entity[] = [
   }
 ];
 
+export const productosLocales: Entity[] = [
+  {
+    id: 'prod-1',
+    name: 'Asociación de Campesinos de Girardota',
+    category: 'Productos de nuestros campesinos',
+    description: 'Frutas frescas, hortalizas orgánicas y café de origen cultivado con amor en las veredas de nuestro municipio.',
+    imageUrl: 'https://images.unsplash.com/photo-1488459718432-010c58d2e405?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    contact: 'https://wa.me/573000000000'
+  },
+  {
+    id: 'prod-2',
+    name: 'Artesanías en Totumo y Madera',
+    category: 'Productos de nuestros artesanos',
+    description: 'Piezas únicas talladas a mano por artesanos locales, perfectas para llevar un recuerdo auténtico de Girardota.',
+    imageUrl: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    contact: 'https://wa.me/573000000000'
+  },
+  {
+    id: 'prod-3',
+    name: 'Artículos Religiosos El Santuario',
+    category: 'Tiendas de artículos religiosos',
+    description: 'Imágenes del Señor Caído, rosarios, velas y recordatorios religiosos ubicados a pocos pasos del templo principal.',
+    imageUrl: 'https://images.unsplash.com/photo-1601134991666-d9dd1585243d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    contact: 'https://wa.me/573000000000'
+  }
+];
+
 export const festividades = [
   'Fiestas Del Señor Caído',
   'Semana Santa',
@@ -64,5 +90,6 @@ export const navegacion = [
   { label: 'Hospedaje', href: '/hospedaje' },
   { label: 'Gastronomía', href: '/gastronomia' },
   { label: 'Experiencias', href: '/experiencias' },
+  { label: 'Productos Locales', href: '/productos-locales' },
   { label: 'Festividades', href: '/festividades' },
 ];

@@ -47,7 +47,6 @@ export default async function ExperienciasPage() {
   const aventura = displayData.filter((c) => c.subCategory === 'Experiencias de Aventura')
   const agroturismo = displayData.filter((c) => c.subCategory === 'Experiencias de Agroturismo')
   const cultural = displayData.filter((c) => c.subCategory === 'Experiencias de Turismo Cultural')
-  const gastronomica = displayData.filter((c) => c.subCategory === 'Experiencias Gastronómicas')
   const religiosa = displayData.filter((c) => c.subCategory === 'Ruta Turística Religiosa')
   const urbana = displayData.filter((c) => c.subCategory === 'Ruta Turística Urbana')
 
@@ -103,7 +102,6 @@ export default async function ExperienciasPage() {
               <TabsTrigger value="aventura" className="px-5 h-12 rounded-xl text-sm md:text-base font-bold data-[state=active]:bg-primary data-[state=active]:text-white whitespace-nowrap snap-center transition-all">Aventura</TabsTrigger>
               <TabsTrigger value="agroturismo" className="px-5 h-12 rounded-xl text-sm md:text-base font-bold data-[state=active]:bg-primary data-[state=active]:text-white whitespace-nowrap snap-center transition-all">Agroturismo</TabsTrigger>
               <TabsTrigger value="cultural" className="px-5 h-12 rounded-xl text-sm md:text-base font-bold data-[state=active]:bg-primary data-[state=active]:text-white whitespace-nowrap snap-center transition-all">Cultural</TabsTrigger>
-              <TabsTrigger value="gastronomica" className="px-5 h-12 rounded-xl text-sm md:text-base font-bold data-[state=active]:bg-primary data-[state=active]:text-white whitespace-nowrap snap-center transition-all">Gastronómicas</TabsTrigger>
               <TabsTrigger value="religiosa" className="px-5 h-12 rounded-xl text-sm md:text-base font-bold data-[state=active]:bg-primary data-[state=active]:text-white whitespace-nowrap snap-center transition-all">Ruta Religiosa</TabsTrigger>
               <TabsTrigger value="urbana" className="px-5 h-12 rounded-xl text-sm md:text-base font-bold data-[state=active]:bg-primary data-[state=active]:text-white whitespace-nowrap snap-center transition-all">Ruta Urbana</TabsTrigger>
             </TabsList>
@@ -115,7 +113,6 @@ export default async function ExperienciasPage() {
             <TabsContent value="aventura" className="mt-0 outline-none">{renderGrid(aventura)}</TabsContent>
             <TabsContent value="agroturismo" className="mt-0 outline-none">{renderGrid(agroturismo)}</TabsContent>
             <TabsContent value="cultural" className="mt-0 outline-none">{renderGrid(cultural)}</TabsContent>
-            <TabsContent value="gastronomica" className="mt-0 outline-none">{renderGrid(gastronomica)}</TabsContent>
             <TabsContent value="religiosa" className="mt-0 outline-none">{renderGrid(religiosa)}</TabsContent>
             <TabsContent value="urbana" className="mt-0 outline-none">{renderGrid(urbana)}</TabsContent>
           </div>

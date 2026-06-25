@@ -30,6 +30,7 @@ export const comercioType = defineType({
           {title: 'Hospedaje', value: 'Hospedaje'},
           {title: 'Gastronomía', value: 'Gastronomía'},
           {title: 'Experiencias Turísticas', value: 'Experiencias Turísticas'},
+          {title: 'Productos Locales', value: 'Productos Locales'},
         ],
       },
       validation: (Rule) => Rule.required(),
@@ -41,7 +42,6 @@ export const comercioType = defineType({
       options: {
         list: [
           {title: 'Hotel', value: 'Hotel'},
-          {title: 'Finca', value: 'Finca'},
           {title: 'Glamping', value: 'Glamping'},
           {title: 'Restaurante', value: 'Restaurante'},
           {title: 'Café', value: 'Café'},
@@ -49,9 +49,11 @@ export const comercioType = defineType({
           {title: 'Experiencias de Aventura', value: 'Experiencias de Aventura'},
           {title: 'Experiencias de Agroturismo', value: 'Experiencias de Agroturismo'},
           {title: 'Turismo Cultural', value: 'Experiencias de Turismo Cultural'},
-          {title: 'Experiencias Gastronómicas', value: 'Experiencias Gastronómicas'},
           {title: 'Ruta Turística Religiosa', value: 'Ruta Turística Religiosa'},
           {title: 'Ruta Turística Urbana', value: 'Ruta Turística Urbana'},
+          {title: 'Productos de nuestros campesinos', value: 'Productos de nuestros campesinos'},
+          {title: 'Productos de nuestros artesanos', value: 'Productos de nuestros artesanos'},
+          {title: 'Tiendas de artículos religiosos', value: 'Tiendas de artículos religiosos'},
         ],
       },
       validation: (Rule) => Rule.required(),
