@@ -76,7 +76,7 @@ export default async function ProductosLocalesPage() {
             Apoya el talento local. Encuentra productos del campo, artesanías hechas a mano y recuerdos religiosos de nuestra tradición.
           </p>
         </div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1488459718432-010c58d2e405?ixlib=rb-4.0.3')] mix-blend-overlay opacity-10 bg-cover bg-center"></div>
+        <div className="absolute inset-0 bg-[url('/banners/productos-locales.jpg')] mix-blend-overlay opacity-10 bg-cover bg-center"></div>
       </section>
 
       <section className="container mx-auto px-4 md:px-8 -mt-8 relative z-20">

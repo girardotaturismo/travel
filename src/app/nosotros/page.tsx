@@ -13,7 +13,7 @@ export default function Nosotros() {
       <section className="relative w-full h-[450px] md:h-[550px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0 bg-[#006738]/90">
           <Image
-            src="https://images.unsplash.com/photo-1542662565-7e4fd159b923?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+            src="/banners/nosotros.jpg"
             alt="Paisaje Verde Girardota"
             fill
             sizes="100vw"

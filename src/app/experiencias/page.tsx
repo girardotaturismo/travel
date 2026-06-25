@@ -79,7 +79,7 @@ export default async function ExperienciasPage() {
             Conecta con el alma de nuestro municipio. Desde rutas culturales y religiosas hasta caminatas por la naturaleza, diseña tu propia experiencia interactiva.
           </p>
         </div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542662565-7e4fd159b923?ixlib=rb-4.0.3')] mix-blend-overlay opacity-20 bg-cover bg-center"></div>
+        <div className="absolute inset-0 bg-[url('/banners/experiencias.jpg')] mix-blend-overlay opacity-20 bg-cover bg-center"></div>
       </section>
 
       <section className="container mx-auto px-0 md:px-8 -mt-10 relative z-20">

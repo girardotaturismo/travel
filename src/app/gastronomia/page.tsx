@@ -75,7 +75,7 @@ export default async function GastronomiaPage() {
             Descubre los sabores locales. Disfruta de la mejor cocina tradicional, restaurantes gourmets y cafés de origen elaborados por emprendedores girardotanos.
           </p>
         </div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3')] mix-blend-overlay opacity-10 bg-cover bg-center"></div>
+        <div className="absolute inset-0 bg-[url('/banners/gastronomia.jpg')] mix-blend-overlay opacity-10 bg-cover bg-center"></div>
       </section>
 
       <section className="container mx-auto px-4 md:px-8 -mt-8 relative z-20">

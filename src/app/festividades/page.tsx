@@ -14,7 +14,7 @@ export default function Festividades() {
       <section className="relative w-full h-[400px] md:h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0 bg-[#006738]/90">
           <Image
-            src="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+            src="/banners/festividades.jpg"
             alt="Festividades Girardota"
             fill
             sizes="100vw"
