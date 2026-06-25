@@ -42,9 +42,9 @@ export default function Home() {
       <section className="py-24 bg-muted/50">
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col items-center text-center space-y-4 mb-16">
-            <h2 className="text-3xl md:text-5xl font-black tracking-tight text-primary">¿Qué quieres hacer hoy?</h2>
+            <h2 className="text-3xl md:text-5xl font-black tracking-tight text-primary">Descubre lo que Girardota tiene para ti.</h2>
             <p className="text-muted-foreground max-w-[700px] text-lg font-medium">
-              Encuentra las mejores opciones de hospedaje, gastronomía y experiencias inolvidables a un solo clic de distancia.
+              Experiencias, sabores y lugares que te invitan a quedarte un poco más. ¡Planea tu visita hoy!
             </p>
           </div>
           
