@@ -100,7 +100,7 @@ export default function Home() {
                 Festividades y Eventos
               </h2>
               <p className="text-xl text-foreground/70 mb-10 leading-relaxed font-medium">
-                Girardota es un territorio de celebración. Durante el año, diferentes festividades, encuentros culturales, deportivos y gastronómicos llenan de vida al municipio, invitando a propios y visitantes a compartir y disfrutar de nuestras tradiciones.
+                Girardota es un territorio de celebración. Durante todo el año, festividades y encuentros culturales, deportivos y gastronómicos llenan el municipio de alegría, creando espacios para compartir, disfrutar y vivir de cerca nuestras tradiciones.
               </p>
               
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
