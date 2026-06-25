@@ -10,7 +10,7 @@ export default function Nosotros() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative w-full h-[450px] md:h-[550px] flex items-center justify-center overflow-hidden">
+      <section className="relative w-full min-h-[450px] md:min-h-[550px] py-16 md:py-24 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0 bg-[#006738]/90">
           <Image
             src="/banners/nosotros.jpg"

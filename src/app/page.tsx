@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative w-full h-[600px] md:h-[700px] flex items-center justify-center overflow-hidden">
+      <section className="relative w-full min-h-[600px] md:min-h-[700px] py-20 md:py-32 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0 bg-primary/20">
           <Image
             src="/banners/home.jpg"
