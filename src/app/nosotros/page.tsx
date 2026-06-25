@@ -54,9 +54,17 @@ export default function Nosotros() {
                 <Leaf className="w-8 h-8 text-[#1cae49]" />
               </div>
               <h3 className="text-[26px] font-extrabold text-slate-900 mb-4 tracking-tight">Nuestro municipio</h3>
-              <p className="text-slate-600 leading-relaxed font-medium text-[16px]">
-                Ubicado en el norte del Valle de Aburrá, Girardota es un destino privilegiado por sus vastos paisajes andinos, impresionantes fuentes hídricas y su profundo arraigo religioso y cultural. Un lugar de gente cálida y trabajadora, siempre listo para recibirte y mostrarte con orgullo lo mejor de nuestra tierra.
-              </p>
+              <div className="text-slate-600 leading-relaxed font-medium text-[16px] space-y-4">
+                <p>
+                  Girardota, en el norte del Valle de Aburrá, es un territorio donde la fe, la naturaleza y la tradición se entrelazan para dar vida a experiencias auténticas.
+                </p>
+                <p>
+                  Rodeado de montañas y atravesado por paisajes que invitan a detenerse, este municipio guarda una riqueza natural que se complementa con su profundo arraigo cultural y religioso.
+                </p>
+                <p>
+                  Sus caminos, sus encuentros y sus espacios patrimoniales cuentan historias que se mantienen vivas en el tiempo, reflejando la identidad de una comunidad que honra sus raíces y comparte con orgullo lo que es.
+                </p>
+              </div>
             </div>
 
             {/* Punto de Información */}
@@ -66,22 +74,22 @@ export default function Nosotros() {
               </div>
               <h3 className="text-[26px] font-extrabold text-slate-900 mb-4 tracking-tight">Punto de Información Turística</h3>
               <p className="text-slate-600 leading-relaxed font-medium mb-6 text-[16px]">
-                Encuentra orientación oficial, mapas impresos, guías de experiencias locales y recomendaciones personalizadas para aprovechar al máximo tu excelente estadía en Girardota.
+                Un espacio pensado para acompañarte en tu recorrido. Aquí podrás encontrar orientación, mapas, guías y recomendaciones que te ayudarán a descubrir lo mejor de Girardota y vivir una experiencia a tu medida.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3 text-slate-700 bg-slate-50 p-4 rounded-2xl border border-slate-100">
                   <MapPin className="w-6 h-6 text-[#166534] shrink-0" strokeWidth={2.5} />
                   <div>
                     <p className="text-[13px] font-bold text-slate-500 uppercase tracking-widest mb-1">Ubicación</p>
-                    <span className="font-semibold text-[15px]">Parque Principal, Palacio Municipal</span>
+                    <span className="font-semibold text-[15px]">Parque Principal de Girardota</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3 text-slate-700 bg-slate-50 p-4 rounded-2xl border border-slate-100">
                   <Clock className="w-6 h-6 text-[#166534] shrink-0" strokeWidth={2.5} />
                   <div>
                      <p className="text-[13px] font-bold text-slate-500 uppercase tracking-widest mb-1">Horarios de Atención</p>
-                     <span className="font-semibold text-[15px] block">L-V: 8:00 AM - 5:00 PM</span>
-                     <span className="font-semibold text-[15px] block">Sáb: 9:00 AM - 2:00 PM</span>
+                     <span className="font-semibold text-[15px] block">Martes a Viernes: 10:00 a.m. - 4:00 p.m.</span>
+                     <span className="font-semibold text-[15px] block">Sábado y Domingos: 10:00 AM - 3:00 PM</span>
                   </div>
                 </li>
               </ul>
