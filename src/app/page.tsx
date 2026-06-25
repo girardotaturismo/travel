@@ -21,14 +21,11 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/40" />
         </div>
         <div className="relative z-10 container mx-auto px-4 md:px-6 text-center text-white">
-          <span className="inline-block py-1.5 px-4 rounded-full bg-primary/80 border border-primary text-sm font-semibold mb-6 backdrop-blur-md shadow-lg">
-            Destino Turístico y Cultural
-          </span>
           <h1 className="text-4xl md:text-6xl font-black tracking-tighter mb-6 max-w-4xl mx-auto leading-tight">
-            Vive, Siente y Descubre <br className="hidden md:block"/> <span className="text-[#a3cf21] drop-shadow-md">Girardota</span>
+            <span className="text-[#a3cf21] drop-shadow-md">Girardota</span> <br className="hidden md:block"/> Territorio Espiritual, Cultural y Naturalmente Encantador.
           </h1>
           <p className="text-lg md:text-xl text-white/95 max-w-2xl mx-auto mb-10 font-medium drop-shadow-sm">
-            Un municipio lleno de historia, tradición y naturaleza. Conectamos a visitantes y locales con la riqueza cultural, gastronómica y turística de nuestro territorio.
+            Descubre sus paisajes, recorre sus rutas y déjate sorprender por un territorio que guarda historia, tradición y experiencias por vivir.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
              <Link href="/experiencias" className="inline-flex items-center justify-center rounded-lg transition-colors bg-[#1cae49] hover:bg-[#1cae49]/90 text-white font-bold text-lg h-14 px-8 shadow-xl">
