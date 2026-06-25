@@ -29,9 +29,17 @@ export default function Nosotros() {
           <h1 className="text-4xl md:text-6xl font-black tracking-tighter mb-6 drop-shadow-lg">
             Nosotros
           </h1>
-          <p className="text-lg md:text-xl text-white/95 max-w-4xl mx-auto font-medium leading-relaxed drop-shadow-md">
-            Girardota es un municipio lleno de historia, tradición y naturaleza. Desde este espacio queremos conectar a visitantes y locales con la riqueza cultural, gastronómica, natural y turística del territorio, promoviendo a quienes hacen del turismo una experiencia auténtica en nuestro municipio.
-          </p>
+          <div className="text-lg md:text-xl text-white/95 max-w-4xl mx-auto font-medium leading-relaxed drop-shadow-md space-y-4">
+            <p>
+              Girardota es un destino que se construye desde su historia, sus tradiciones y la calidez de su gente.
+            </p>
+            <p>
+              Este portal es un punto de encuentro para descubrir el municipio a través de su cultura, su gastronomía y sus experiencias, reuniendo en un solo lugar aquello que hace especial al territorio.
+            </p>
+            <p>
+              Más que una guía, es una invitación a recorrer Girardota, a conectar con sus paisajes y a reconocer a quienes, con su trabajo y pasión, hacen del turismo una experiencia auténtica y cercana.
+            </p>
+          </div>
         </div>
       </section>
 
