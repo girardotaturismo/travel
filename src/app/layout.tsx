@@ -1,14 +1,7 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
-
-const fontOutfit = Outfit({
-  variable: "--font-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-});
 
 export const metadata: Metadata = {
   title: "Girardota Travel | Portal Turístico y Comercial",
@@ -23,7 +16,7 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${fontOutfit.variable} h-full antialiased`}
+      className="h-full antialiased"
     >
       <body className="min-h-full flex flex-col font-sans">
         <Navbar />
