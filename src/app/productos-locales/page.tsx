@@ -26,8 +26,10 @@ export default async function ProductosLocalesPage() {
     description: c.description,
     images: [c.imageUrl, c.imageUrl, c.imageUrl],
     whatsappInfo: c.contact || '',
-    address: 'Girardota, Antioquia',
-    instagram: 'girardotatravel',
+    address: c.address,
+    instagram: c.instagram,
+    facebook: c.facebook,
+    website: c.website,
   }))
 
   const campesinos = displayData.filter((c) => c.subCategory === 'Productos de nuestros campesinos')

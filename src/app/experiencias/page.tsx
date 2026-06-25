@@ -2,6 +2,7 @@ import { client } from "@/sanity/lib/client"
 import { COMERCIOS_QUERY, type ComercioItem } from "@/sanity/lib/queries"
 import { CommerceCard } from "@/components/ui/commerce-card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { experiencias as fallbackData } from "@/lib/data"
 
 export const revalidate = 60
 
@@ -16,32 +17,20 @@ export default async function ExperienciasPage() {
   }
 
   // Graceful Degradation / Mockups
-  const displayData: ComercioItem[] = comercios.length > 0 ? comercios : [
-    {
-      _id: 'exp-1',
-      name: 'Ruta Religiosa El Señor Caído',
-      slug: 'ruta-religiosa-el-senor-caido',
-      mainCategory: 'Experiencias Turísticas' as const,
-      subCategory: 'Ruta Turística Religiosa',
-      description: 'Explora la devoción y arquitectura del santuario de Girardota recorriendo sus emblemáticas estaciones y participando del fervor colectivo.',
-      images: ['https://images.unsplash.com/photo-1548625361-b997893c5eb8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'],
-      whatsappInfo: '573000000000',
-      address: 'Santuario del Señor Caído, Centro',
-      website: 'www.girardota.gov.co'
-    },
-    {
-      _id: 'exp-2',
-      name: 'Paseo Ecoturístico Valles Altos',
-      slug: 'paseo-ecoturistico',
-      mainCategory: 'Experiencias Turísticas' as const,
-      subCategory: 'Experiencias de Naturaleza',
-      description: 'Caminata y senderismo rodeado de los hermosos valles y vegetación nativa de la región antioqueña.',
-      images: ['https://images.unsplash.com/photo-1542662565-7e4fd159b923?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'],
-      whatsappInfo: '573000000000',
-      address: 'Vereda Valles Altos, Girardota',
-      instagram: 'culturagirardota'
-    }
-  ]
+  const displayData: ComercioItem[] = comercios.length > 0 ? comercios : fallbackData.map((c) => ({
+    _id: c.id,
+    name: c.name,
+    slug: c.id,
+    mainCategory: 'Experiencias Turísticas' as const,
+    subCategory: c.category,
+    description: c.description,
+    images: [c.imageUrl],
+    whatsappInfo: c.contact || '',
+    address: c.address,
+    instagram: c.instagram,
+    facebook: c.facebook,
+    website: c.website,
+  }))
 
   const naturaleza = displayData.filter((c) => c.subCategory === 'Experiencias de Naturaleza')
   const aventura = displayData.filter((c) => c.subCategory === 'Experiencias de Aventura')

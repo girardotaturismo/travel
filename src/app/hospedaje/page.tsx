@@ -26,8 +26,10 @@ export default async function HospedajePage() {
     description: c.description,
     images: [c.imageUrl, c.imageUrl, c.imageUrl], // Simulamos un carrousel duplicando la foto.
     whatsappInfo: c.contact || '',
-    address: 'Ubicación central, Vereda Manga Arriba',
-    instagram: 'girardotatravel',
+    address: c.address,
+    instagram: c.instagram,
+    facebook: c.facebook,
+    website: c.website,
   }))
 
   const hoteles = displayData.filter((c) => c.subCategory === 'Hotel')

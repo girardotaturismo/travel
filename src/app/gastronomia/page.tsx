@@ -26,8 +26,10 @@ export default async function GastronomiaPage() {
     description: c.description,
     images: [c.imageUrl, c.imageUrl], // mockup 2 images
     whatsappInfo: c.contact || '',
-    address: 'Edificio Plaza, Parque Principal',
-    facebook: 'girardotatravel',
+    address: c.address,
+    instagram: c.instagram,
+    facebook: c.facebook,
+    website: c.website,
   }))
 
   const restaurantes = displayData.filter((c) => c.subCategory === 'Restaurante')
