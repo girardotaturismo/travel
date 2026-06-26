@@ -27,7 +27,7 @@ export const hospedajes: Entity[] = [
     name: 'Ancestros Ecoparque',
     category: 'Hotel',
     description: 'Alojamiento y gastronomía en medio de la naturaleza. Disfruta una estadía en casas del árbol, domos o casas de cristal con todo el confort. Complementa tu experiencia con nuestro restaurante, que ofrece platos frescos en un entorno natural. Ideal para parejas, familias o escapadas donde descanso y buena comida se unen.',
-    imageUrl: 'https://images.unsplash.com/photo-1508193638397-1c4234db14d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/ancestros.jpg',
     contact: 'https://wa.me/573186528633',
     address: 'Vereda El Palmar, Girardota, Antioquia.',
     instagram: 'https://instagram.com/ancestrosecoparque'
@@ -37,7 +37,7 @@ export const hospedajes: Entity[] = [
     name: 'Mountain View',
     category: 'Hotel',
     description: 'En Mountain View abrimos nuestras puertas para recibirte como parte de nuestra familia, con espacios llenos de tranquilidad, sabores preparados con amor y experiencias que hacen que cada visita sea inolvidable. Porque los mejores recuerdos no se planean solamente… se viven. Ven y crea tu próxima historia donde la montaña inspira, la mesa reúne y los recuerdos comienzan.',
-    imageUrl: 'https://images.unsplash.com/photo-1542314831-c6a4d27ce6a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/mountain-view.jpg',
     contact: 'https://wa.me/573215644422',
     address: 'Mtro 400 Vereda Manga Arriba, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/mountainviewgirardota?igsh=MWtxYzY1cGsydjA4Zw=='
@@ -47,7 +47,7 @@ export const hospedajes: Entity[] = [
     name: 'Sky Natural',
     category: 'Hotel',
     description: 'Es un lugar para descansar, conectar con la naturaleza y vivir experiencias inolvidables. Contamos con día de sol o alojamiento a 30 min de Medellín, con piscinas, turcos toboganes, jacuzzis granja y senderos. Plan completo con almuerzo tipo bufet, carta variada, snack con helado y el mejor ambiente familiar. También tenemos cabañas privadas con jacuzzi.',
-    imageUrl: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/sky-natural.jpg',
     contact: 'https://wa.me/573155307000',
     address: 'A 1.2 km del parque principal, vereda Manga Arriba, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/reel/DLNLdvZubDd/?igsh=MTl2bDlzcnhodzBvaQ=='
@@ -57,7 +57,7 @@ export const hospedajes: Entity[] = [
     name: 'Entre Los Pinos Glamping',
     category: 'Glamping',
     description: 'Ofrece una experiencia de hospedaje exclusiva en medio de la naturaleza, donde el confort, la privacidad y la tranquilidad se integran con paisajes rodeados de pinos y aire puro. Ideal para el descanso, el romance y la desconexión de la rutina.',
-    imageUrl: 'https://images.unsplash.com/photo-1510312305653-8ed496efae75?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/entre-los-pinos.jpg',
     contact: 'https://wa.me/573013212157',
     address: 'Vereda el Yarumo, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/entre_lospinosglamping?igsh=MTV6bzhyNDluYXVtZQ=='
@@ -67,7 +67,7 @@ export const hospedajes: Entity[] = [
     name: 'Benevento',
     category: 'Glamping',
     description: 'Benevento es una reserva natural privada cerca de la ciudad, que ofrece estancias y experiencias inmersivas de descanso y bienestar en espacios exclusivos, porque creemos que toda vida necesita pausas para que, curiosa o irónicamente, pueda continuar. Somos un refugio donde naturaleza, diseño y cuidado se encuentran.',
-    imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/benevento.jpg',
     contact: 'https://wa.me/573172948977',
     address: 'Vereda La Matica parte baja, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/benevento.col'
@@ -80,7 +80,7 @@ export const restaurantes: Entity[] = [
     name: 'Truchera Piedra Lisa',
     category: 'Restaurante',
     description: 'Atrévete a vivir una experiencia inolvidable en medio de la naturaleza. Aquí no solo disfrutas una deliciosa trucha, sino que te conviertes en protagonista al pescarla tú mismo. Rodeado de montañas, aire puro y paisajes que enamoran, este es el plan perfecto para desconectarte, compartir y crear recuerdos únicos.',
-    imageUrl: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/truchera-piedra-lisa.jpg',
     contact: 'https://wa.me/573007850160',
     address: 'Vereda El Barro Km 3, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/trucherapiedralisa?igsh=YzlxNjg2YTl0ZGJ0&utm_source=qr'
@@ -90,7 +90,7 @@ export const restaurantes: Entity[] = [
     name: 'Los Meandros',
     category: 'Restaurante',
     description: 'Mirador restaurante campestre que brinda una experiencia natural, deliciosa y memorable. Nuestra especialidad son los chicharrones con más de 12 presentaciones diferentes, además de parrilla, hamburguesería, picadas, bebidas naturales, licores y coctelería; todos los productos basados en recetas ancestrales y tradicionales de la región antioqueña.',
-    imageUrl: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/los-meandros.jpg',
     contact: 'https://wa.me/573219498060',
     address: 'Vereda La Matica Parte Baja, a medio km de la autopista Norte, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/los_meandros?igsh=MTZicXR3N29wNWE0OQ=='
@@ -100,7 +100,7 @@ export const restaurantes: Entity[] = [
     name: 'Campanario Encanto Cultural',
     category: 'Restaurante',
     description: 'Campanario Encanto Cultural es una casa de estilo colonial y republicano con más de 250 años de historia construida con materiales propios de la época que aún se conservan. Actualmente, la casa sirve como espacio cultural, artístico y gastronómico buscando impulsar talentos locales y deleitar los paladares con platos auténticos de la cocina nacional e internacional.',
-    imageUrl: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/campanario.jpg',
     contact: 'https://wa.me/573122265485',
     address: 'Calle 7 # 14-35, Frente a la puerta del perdón de la Catedral, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/campanarioencantocultural?igsh=NG9pdDdmbGliNHFx&utm_source=qr'
@@ -110,7 +110,7 @@ export const restaurantes: Entity[] = [
     name: 'Q´Chingon',
     category: 'Restaurante',
     description: 'En el corazón de Girardota hay un rincón con alma mexicana. Un lugar donde los sabores cuentan historias, donde cada plato es preparado con pasión y cada visita se convierte en un recuerdo. En Q\'Chingón no solo vas a comer. Vas a sentir el calor de una atención cercana, genuina y acogedora, como en casa, pero con el sabor de México.',
-    imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/q-chingon.jpg',
     contact: 'https://wa.me/573192832793',
     address: 'calle 10 # 16-10, frente al colegio Emiliano Garcia, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/q.chingon_?igsh=MTlvdTF5YnRpemJheQ%3D%3D&utm_source=qr'
@@ -120,7 +120,7 @@ export const restaurantes: Entity[] = [
     name: 'Q Fresas',
     category: 'Restaurante',
     description: 'Q\'Fresas nació en Girardota con un sueño: convertir un antojo sencillo en una experiencia inolvidable. Aquí cada visitante puede crear su combinación perfecta de fresas con crema y toppings, disfrutando sabores que despiertan sonrisas y crean recuerdos. Te invitamos a descubrir nuestro famoso Taco Fresa, una propuesta única que mezcla creatividad, sabor y la calidez de nuestra gente.',
-    imageUrl: 'https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/q-fresas.jpg',
     contact: 'https://wa.me/573042880849',
     address: 'carrera 16 # 9-48, frente al colegio Emiliano Garcia, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/q.fresas_?igsh=aW5lOXljN2c3b3F2'
@@ -130,7 +130,7 @@ export const restaurantes: Entity[] = [
     name: 'Toros Café',
     category: 'Café',
     description: 'Toros Café es mucho más que una tienda de café: es un punto de encuentro donde el café de especialidad se vive en cada taza. Disfruta bebidas únicas, comida y un ambiente acogedor para trabajar, compartir con amigos, crear momentos especiales y descubrir la pasión por el buen café. Rutas cafeteras • Coffee truck para eventos • Tienda de café de especialidad.',
-    imageUrl: 'https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/toros-cafe.jpg',
     contact: 'https://wa.me/573236415645',
     address: 'Parque de la poesía, barrio Santa Ana, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/toros.cafe?igsh=czlkZ2dyaWF1amho'
@@ -140,7 +140,7 @@ export const restaurantes: Entity[] = [
     name: 'Mökka Tienda de Café',
     category: 'Café',
     description: 'En Mökka cada visita es una invitación a detener el tiempo, compartir conversaciones, descubrir el valor del café de especialidad y disfrutar los pequeños momentos que hacen grande la vida. Entre aromas, sabores y experiencias únicas encontrarás métodos manuales, brunch, repostería artesanal, bebidas para todos los gustos y espacios pensados para leer, jugar, conectar y crear recuerdos que permanecerán contigo.',
-    imageUrl: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/mokka.jpg',
     contact: 'https://wa.me/573165545754',
     address: 'Mall Santana, Calle 10 BB #10-09 Local 103, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/mokka_tiendadecafe?igsh=enF4M2tsc2t0emE2'
@@ -150,7 +150,7 @@ export const restaurantes: Entity[] = [
     name: 'Café Gratitud',
     category: 'Café',
     description: 'Es un acogedor punto de encuentro donde el café de especialidad, la calidez y la gratitud se unen para brindar una experiencia memorable a residentes y visitantes. Nuestro propósito es compartir un lugar auténtico, agradable y representativo de la hospitalidad de nuestro municipio, cada detalle está diseñado para transmitir tranquilidad, cercanía y bienestar. ¡Aquí no solo servimos un delicioso café, aquí creamos momentos que invitan a volver a Girardota!',
-    imageUrl: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/cafe-gratitud.jpg',
     contact: 'https://wa.me/573162880654',
     address: 'Calle 7 #14-13, al costado de la Catedral de Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/nuestrocafegratitud?igsh=aHEwOHh5eG9memxx&utm_source=qr'
@@ -160,7 +160,7 @@ export const restaurantes: Entity[] = [
     name: 'Abigail’s Coffee',
     category: 'Café',
     description: 'Hay lugares que invitan a quedarse, conversar y disfrutar sin prisa. En Abigail\'s Coffee te esperamos con el aroma de un buen café, un brunch delicioso y un espacio de coworking diseñado para inspirar nuevas ideas, crear grandes proyectos y compartir momentos especiales. Café • Brunch • Coworking',
-    imageUrl: 'https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/abigail-coffee.jpg',
     contact: 'https://wa.me/573127619095',
     address: 'Carrera 14 # 7-90 a una cuadra del parque principal, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/abigailscoffe?igsh=MW52OXF0M3lvYWFjMg=='
@@ -173,7 +173,7 @@ export const experiencias: Entity[] = [
     name: 'Trekking, Cascada y Charco',
     category: 'Experiencias de Naturaleza',
     description: 'Vive una experiencia de aventura y naturaleza entre montañas. Recorre un antiguo camino ancestral que conecta Girardota y Guarne, practica tiro con arco, contempla espectaculares panorámicas del Valle de Aburrá y culmina la jornada con un refrescante baño en cascada y charco natural. Una experiencia perfecta para conectar con el paisaje y la emoción.',
-    imageUrl: 'https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/trekking.jpg',
     contact: 'https://wa.me/573007848944',
     address: 'Veredas El Cano y Jamunidi, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/charcuzzi?igsh=MXM2YmVpeTUxbDRreg=='
@@ -183,7 +183,7 @@ export const experiencias: Entity[] = [
     name: 'Charcuzzi Recargado',
     category: 'Experiencias de Aventura',
     description: 'Atrévete a vivir la adrenalina del torrentismo en una cascada de 70 metros, rodeada de exuberante fauna y flora. No necesitas experiencia, solo ganas de aventura. Conéctate con la naturaleza, supera tus límites y rompe con la rutina en una experiencia inolvidable en la montaña.',
-    imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/charcuzzi.jpg',
     contact: 'https://wa.me/573007848944',
     address: 'Veredas El Cano y Jamunidi, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/charcuzzi?igsh=MXM2YmVpeTUxbDRreg=='
@@ -193,7 +193,7 @@ export const experiencias: Entity[] = [
     name: 'Cascada El Tigre',
     category: 'Experiencias de Aventura',
     description: 'Vive la emoción del torrentismo en El Tigre, una cascada escondida en LarutanaturaL. Desciende 30 metros con una inclinación de 85°, mientras el agua y la fuerza del bosque te envuelven por completo. No necesitas experiencia para domar El Tigre, solo el deseo de conquistar una aventura inolvidable.',
-    imageUrl: 'https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/cascada-el-tigre.jpg',
     contact: 'https://wa.me/573007848944',
     address: 'Vereda Juan Cojo, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/charcuzzi?igsh=MXM2YmVpeTUxbDRreg=='
@@ -203,7 +203,7 @@ export const experiencias: Entity[] = [
     name: 'El Reto San Antonio',
     category: 'Experiencias de Aventura',
     description: 'Acepta el desafío de descender una de las cascadas más imponentes del Valle de Aburrá. Son 130 metros de adrenalina, rodeados de montaña, senderos naturales y una extraordinaria riqueza en fauna y flora. Una experiencia extrema para aventureros con experiencia en rappel que buscan superar sus propios límites.',
-    imageUrl: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/reto-san-antonio.jpg',
     contact: 'https://wa.me/573007848944',
     address: 'Veredas El Cano y Jamunidi, Girardota, Antioquia.',
     instagram: 'https://www.instagram.com/charcuzzi?igsh=MXM2YmVpeTUxbDRreg=='
@@ -213,7 +213,7 @@ export const experiencias: Entity[] = [
     name: 'Aventura y Cuatrimoto en medio de la naturaleza',
     category: 'Experiencias de Aventura',
     description: 'Vive la emoción de recorrer la montaña en cuatrimoto y disfrutar actividades como puente tibetano y bici aérea. Una experiencia segura que combina adrenalina, paisajes únicos y conexión con la naturaleza. Ideal para parejas, amigos y grupos que buscan salir de la rutina.',
-    imageUrl: 'https://images.unsplash.com/photo-1531804055935-76f44d7c3621?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/cuatrimoto.jpg',
     contact: 'https://wa.me/573186528633',
     address: 'Vereda El Palmar, Girardota, Antioquia.',
     instagram: 'https://instagram.com/ancestrosecoparque'
@@ -223,7 +223,7 @@ export const experiencias: Entity[] = [
     name: 'Fanfanillo Apiario & Farm',
     category: 'Experiencias de Agroturismo',
     description: 'Sube a las colinas de Girardota y déjate sorprender por Fanfanillo: una casona centenaria de tapia, colmenas vivas y la miel más pura del norte del Valle de Aburrá. Un recorrido donde la historia familiar, las abejas y el territorio antioqueño se convierten en una experiencia que no se olvida.',
-    imageUrl: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/fanfanillo-apiario.jpg',
     contact: 'https://wa.me/573006134644',
     address: 'Sector Los Martínez N° 29 (Vía Madre Laura), Vereda Juan Cojo, Girardota, Antioquia',
     instagram: 'https://www.instagram.com/fanfanillo?igsh=ajRjaXd1c3dvbjVr'
@@ -233,7 +233,7 @@ export const experiencias: Entity[] = [
     name: 'Ruta del fique ancestral que conecta cultura y tradición',
     category: 'Experiencias de Turismo Cultural',
     description: 'Conoce el proceso del fique, una fibra natural con gran valor cultural. Apoya el trabajo de artesanas locales y descubre productos únicos hechos a mano. Una experiencia que conecta con la tradición de nuestro campo.',
-    imageUrl: 'https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/fique-ancestral.jpg',
     contact: 'https://wa.me/573186528633',
     address: 'Vereda El Palmar, Girardota, Antioquia.',
     instagram: 'https://instagram.com/ancestrosecoparque'
@@ -243,7 +243,7 @@ export const experiencias: Entity[] = [
     name: 'Parque Vivo el Sainete',
     category: 'Experiencias de Turismo Cultural',
     description: 'Vive una experiencia auténtica en Parque Vivo El Sainete, donde la tradición, la cultura campesina y la diversión se unen en un entorno natural único. Disfruta actividades recreativas, espectáculos típicos y momentos inolvidables en familia, conectando con las raíces y el patrimonio de Antioquia.',
-    imageUrl: 'https://images.unsplash.com/photo-1533900298318-6b8da08a523e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/parque-sainete.jpg',
     contact: 'https://wa.me/573046477623',
     address: 'Vereda San Andres, Girardota, Antioquia.'
   },
@@ -252,7 +252,7 @@ export const experiencias: Entity[] = [
     name: 'Ruta Religiosa El Señor Caído',
     category: 'Ruta Turística Religiosa',
     description: 'Explora la devoción y arquitectura del santuario de Girardota recorriendo sus emblemáticas estaciones y participando del fervor colectivo.',
-    imageUrl: 'https://images.unsplash.com/photo-1548625361-b997893c5eb8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/ruta-religiosa.jpg',
     contact: 'https://wa.me/573000000000',
     address: 'Santuario del Señor Caído, Centro',
     website: 'www.girardota.gov.co'
@@ -262,7 +262,7 @@ export const experiencias: Entity[] = [
     name: 'Descubre la esencia urbana de Girardota',
     category: 'Ruta Turística Urbana',
     description: 'Descubre la esencia cultural y tradicional de Girardota a través de un recorrido por sus lugares más emblemáticos. Realiza la ruta urbana y visita la Catedral Nuestra Señora del Rosario y el Santuario del Señor Caído, la Biblioteca Municipal Alberto Aguirre, la Casa de la Cultura Pedrito Ruiz y el inspirador Parque de la Poesía.',
-    imageUrl: 'https://images.unsplash.com/photo-1542662565-7e4fd159b923?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/ruta-urbana.jpg',
     contact: 'https://wa.me/573000000000',
     address: 'Zona Urbana, Girardota, Antioquia.'
   }
@@ -274,7 +274,7 @@ export const productosLocales: Entity[] = [
     name: 'Productos de la colmena Fanfanillo',
     category: 'Productos de nuestros campesinos',
     description: 'Fanfanillo ofrece productos apícolas elaborados con altos estándares de calidad y los beneficios naturales de las abejas. Descubre su miel pura, polen nutritivo, bálsamo hidratante y crema hidratante, ideales para fortalecer el bienestar, cuidar la piel y disfrutar las propiedades que la naturaleza brinda para la salud y el cuidado personal.',
-    imageUrl: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/fanfanillo-productos.jpg',
     contact: 'https://wa.me/573006134644',
     instagram: 'https://www.instagram.com/fanfanillo?igsh=ajRjaXd1c3dvbjVr'
   },
@@ -283,7 +283,7 @@ export const productosLocales: Entity[] = [
     name: 'Productos de Fique Asociación Mujeres',
     category: 'Productos de nuestros artesanos',
     description: 'Productos y accesorios de alta calidad elaborados a mano en fibra de fique por la Asociación de Mujeres de Girardota, preservando las técnicas de tejido ancestrales y apoyando el desarrollo del campo.',
-    imageUrl: 'https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/comercios/fique-productos.jpg',
     contact: 'https://wa.me/573186528633',
     address: 'Vereda El Palmar, Girardota, Antioquia.',
     instagram: 'https://instagram.com/ancestrosecoparque'
