@@ -52,7 +52,7 @@ export default function Home() {
             <Link href="/hospedaje" className="group">
               <Card className="overflow-hidden border-0 shadow-xl transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl rounded-2xl">
                 <div className="relative h-64 w-full">
-                  <Image src={hospedajes[0]?.imageUrl || "/placeholder.jpg"} alt="Hospedaje" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-500 group-hover:scale-105" />
+                  <Image src="/banners/hospedaje.jpg" alt="Hospedaje" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
                   <div className="absolute bottom-6 left-6">
                     <h3 className="text-3xl font-bold text-white mb-2 tracking-tight">Hospedaje</h3>
@@ -65,7 +65,7 @@ export default function Home() {
             <Link href="/gastronomia" className="group">
               <Card className="overflow-hidden border-0 shadow-xl transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl rounded-2xl">
                 <div className="relative h-64 w-full bg-primary/20">
-                  <Image src={restaurantes[0]?.imageUrl || "/placeholder.jpg"} alt="Gastronomía" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-500 group-hover:scale-105" />
+                  <Image src="/banners/gastronomia.jpg" alt="Gastronomía" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
                   <div className="absolute bottom-6 left-6">
                     <h3 className="text-3xl font-bold text-white mb-2 tracking-tight">Gastronomía</h3>
@@ -78,7 +78,7 @@ export default function Home() {
             <Link href="/experiencias" className="group">
               <Card className="overflow-hidden border-0 shadow-xl transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-2xl rounded-2xl">
                 <div className="relative h-64 w-full bg-primary/20">
-                  <Image src="https://images.unsplash.com/photo-1542662565-7e4fd159b923?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Experiencias" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-500 group-hover:scale-105" />
+                  <Image src="/banners/experiencias.jpg" alt="Experiencias" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
                   <div className="absolute bottom-6 left-6">
                     <h3 className="text-3xl font-bold text-white mb-2 tracking-tight">Experiencias</h3>
