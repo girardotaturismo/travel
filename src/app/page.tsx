@@ -119,7 +119,7 @@ export default function Home() {
             
             <div className="relative h-[600px] w-full rounded-3xl overflow-hidden shadow-2xl">
               <Image 
-                src="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                src="/fiestas.jpg" 
                 alt="Festividades Girardota" 
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
