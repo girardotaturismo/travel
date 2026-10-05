@@ -24,12 +24,15 @@ export default async function ExperienciasPage() {
     mainCategory: 'Experiencias Turísticas' as const,
     subCategory: c.category,
     description: c.description,
-    images: [c.imageUrl],
+    images: c.detailImages && c.detailImages.length > 0 ? c.detailImages : [c.imageUrl],
     whatsappInfo: c.contact || '',
     address: c.address,
     instagram: c.instagram,
     facebook: c.facebook,
     website: c.website,
+    detailText: c.detailText,
+    detailImages: c.detailImages,
+    rutaDetail: c.rutaDetail,
   }))
 
   const naturaleza = displayData.filter((c) => c.subCategory === 'Experiencias de Naturaleza')
@@ -61,6 +64,9 @@ export default async function ExperienciasPage() {
             instagram={item.instagram}
             facebook={item.facebook}
             website={item.website}
+            detailText={item.detailText}
+            detailImages={item.detailImages}
+            rutaDetail={item.rutaDetail}
           />
         ))}
       </div>

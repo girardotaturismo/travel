@@ -16,6 +16,8 @@ export const COMERCIOS_QUERY = groq`*[_type == "comercio"] | order(name asc) {
   website
 }`
 
+import type { RutaDetail } from "@/lib/data"
+
 export type ComercioItem = {
   _id: string;
   name: string;
@@ -29,4 +31,7 @@ export type ComercioItem = {
   instagram?: string;
   facebook?: string;
   website?: string;
+  detailText?: string;
+  detailImages?: string[];
+  rutaDetail?: RutaDetail;
 }

@@ -8,6 +8,30 @@ export type CategoriaExperiencia =
   | 'Ruta Religiosa'
   | 'Ruta Urbana';
 
+export interface RutaStop {
+  number: number;
+  title: string;
+  description: string;
+  duration?: string;
+  items?: string[];
+  images?: string[];
+}
+
+export interface AttractionItem {
+  name: string;
+  location: string;
+}
+
+export interface RutaDetail {
+  routeTitle?: string;
+  stops?: RutaStop[];
+  routeMapUrl?: string;
+  otherAttractionsTitle?: string;
+  otherAttractions?: AttractionItem[];
+  otherAttractionsImages?: string[];
+  otherAttractionsMapUrl?: string;
+}
+
 export interface Entity {
   id: string;
   name: string;
@@ -19,6 +43,9 @@ export interface Entity {
   instagram?: string;
   facebook?: string;
   website?: string;
+  detailText?: string;
+  detailImages?: string[];
+  rutaDetail?: RutaDetail;
 }
 
 export const hospedajes: Entity[] = [
@@ -252,10 +279,101 @@ export const experiencias: Entity[] = [
     name: 'Ruta Religiosa El Señor Caído',
     category: 'Ruta Turística Religiosa',
     description: 'Explora la devoción y arquitectura del santuario de Girardota recorriendo sus emblemáticas estaciones y participando del fervor colectivo.',
-    imageUrl: '/comercios/ruta-religiosa.jpg',
+    imageUrl: '/religiosa/imagenes/2. Santuario del Señor Caído/Señor Caido.jpg',
     contact: 'https://wa.me/573000000000',
     address: 'Santuario del Señor Caído, Centro',
-    website: 'www.girardota.gov.co'
+    detailText: 'El Señor Caído es el principal referente de fe y peregrinación de Girardota. Miles de peregrinos llegan cada año para visitarlo y expresar su devoción, muchos de ellos ingresando de rodillas como acto de fe, agradecimiento y cumplimiento de promesas por los favores recibidos. Esta tradición, profundamente arraigada en la comunidad, hace del Señor Caído un símbolo de la identidad espiritual y cultural del municipio y un elemento fundamental para el reconocimiento de Girardota como destino de turismo religioso.',
+    detailImages: [
+      '/religiosa/imagenes/2. Santuario del Señor Caído/Señor Caido.jpg',
+      '/religiosa/imagenes/Galeria_general/Fiestas del Señor Caido.JPG',
+      '/religiosa/imagenes/Galeria_general/2.jpg',
+      '/religiosa/imagenes/Galeria_general/3.jpg',
+      '/religiosa/imagenes/Galeria_general/4.jpg'
+    ],
+    rutaDetail: {
+      routeTitle: 'Ruta del Señor Caído Girardota',
+      stops: [
+        {
+          number: 1,
+          title: 'Catedral Nuestra Señora del Rosario',
+          description: 'La Catedral Nuestra Señora del Rosario es un importante atractivo cultural y religioso de Girardota, especialmente por albergar el Santuario del Señor Caído, que motiva la permanente peregrinación de fieles. Diseñada en 1910 por el arquitecto francés Charles Émile Carré, presenta un estilo neorrománico, ladrillo a la vista, obras en mármol de Carrara, imágenes religiosas y coloridos vitrales. Es un lugar de visita esencial para quienes llegan al municipio.',
+          images: [
+            '/religiosa/imagenes/1. Catedral Nuestra Señora del Rosario/IGLESIA CATEDRAL 1.jpg',
+            '/religiosa/imagenes/1. Catedral Nuestra Señora del Rosario/IGLESIA CATEDRAL 2.jpg',
+            '/religiosa/imagenes/1. Catedral Nuestra Señora del Rosario/Catedral-2022-01-08.jpg',
+            '/religiosa/imagenes/1. Catedral Nuestra Señora del Rosario/Catedral Nuestra Señora del Rosario (2).JPG'
+          ]
+        },
+        {
+          number: 2,
+          title: 'Santuario del Señor Caído',
+          description: 'El Señor Caído de Girardota es una escultura de madera traída desde Quito en 1767 por el doctor Carlos de Molina y Cataño, con un valor de 70 castellanos de oro. La imagen es considerada el principal símbolo de fe y peregrinación del municipio; generaciones de fieles le han atribuido milagros y favores recibidos, convirtiéndola en un referente espiritual para propios y visitantes.',
+          duration: '60 minutos',
+          images: [
+            '/religiosa/imagenes/2. Santuario del Señor Caído/Señor Caido.jpg',
+            '/religiosa/imagenes/2. Santuario del Señor Caído/Santuario del Señor Caido.jpeg',
+            '/religiosa/imagenes/2. Santuario del Señor Caído/Señor Caido 2.jpeg',
+            '/religiosa/imagenes/2. Santuario del Señor Caído/Señor Caido de Girardota (1).jpg',
+            '/religiosa/imagenes/2. Santuario del Señor Caído/_MG_5342 (1).jpg',
+            '/religiosa/imagenes/2. Santuario del Señor Caído/_MG_5344.jpg'
+          ]
+        },
+        {
+          number: 3,
+          title: 'Visita las tiendas de artículos religiosos',
+          description: 'Junto a la Catedral se encuentran tradicionales tiendas de artículos religiosos como Las Promesas, Duquesa y La Luz, donde peregrinos y visitantes pueden adquirir imágenes sagradas, rosarios, crucifijos, medallas, escapularios, novenas, velas y otros elementos de devoción relacionados con el Señor Caído.',
+          items: [
+            'Almacén Las Promesas',
+            'Almacén Duquesa',
+            'Almacén La Luz'
+          ],
+          duration: '15 minutos',
+          images: []
+        },
+        {
+          number: 4,
+          title: 'Parroquia San Esteban de Hato Grande',
+          description: 'La Parroquia San Esteban de Hato Grande es una réplica de la primera parroquia de Girardota y fue construida por el padre Mario Sierra Ochoa. Se destaca por su arquitectura, el mosaico de piedra de la entrada, elaborado con materiales provenientes de las quebradas del municipio, la representación de la bandera de Girardota y su valiosa imaginería, entre ella el Señor de la Caña. Es un espacio de culto que conserva parte de la historia y tradición espiritual de la comunidad.',
+          duration: '20 minutos',
+          images: [
+            '/religiosa/imagenes/4. Parroquia San Esteban de Hato Grande/IGLESIAS (1).jpg'
+          ]
+        },
+        {
+          number: 5,
+          title: 'Monasterio Hermanos Carmelitas Contemplativos',
+          description: 'Los Hermanos Contemplativos del Carmelo conforman una comunidad de vida monástica dedicada a la oración y a los votos de pobreza, castidad y obediencia. El monasterio ofrece una experiencia de silencio, retiro y encuentro personal con Dios, con posibilidad de hospedaje individual o familiar por un máximo de cinco días, permitiendo al visitante acercarse al ritmo de vida contemplativo de la comunidad.',
+          duration: 'Depende de la actividad y modalidad de retiro.',
+          images: [
+            '/religiosa/imagenes/5. Monasterio Hermanos Carmelitas Contemplativos/Monasterio 3.PNG',
+            '/religiosa/imagenes/5. Monasterio Hermanos Carmelitas Contemplativos/Monasterio 4.PNG',
+            '/religiosa/imagenes/5. Monasterio Hermanos Carmelitas Contemplativos/Monasterio 5.PNG',
+            '/religiosa/imagenes/5. Monasterio Hermanos Carmelitas Contemplativos/Monasterio 6.PNG',
+            '/religiosa/imagenes/5. Monasterio Hermanos Carmelitas Contemplativos/Monasterio 7.PNG',
+            '/religiosa/imagenes/5. Monasterio Hermanos Carmelitas Contemplativos/Monasterio 8.PNG'
+          ]
+        }
+      ],
+      routeMapUrl: 'https://www.google.com/maps/d/u/0/viewer?hl=es&mid=1pJ0YwbsnFSjL1kmRL3AFxOfcmkmtv3U&ll=6.361401800000013%2C-75.4502574&z=15',
+      otherAttractionsTitle: 'Otros lugares o atractivos claves de la ruta religiosa:',
+      otherAttractions: [
+        { name: 'Parroquia Santa Teresita del Niño Jesús', location: 'Barrio la Ceiba' },
+        { name: 'Parroquia La Santísima Trinidad del Llano', location: 'Barrio Girardota la Nueva' },
+        { name: 'Parroquia Divina Eucaristía', location: 'Vereda Manga Arriba' },
+        { name: 'Parroquia La Sagrada Familia', location: 'Vereda San Andrés' }
+      ],
+      otherAttractionsImages: [
+        '/religiosa/imagenes/Otros lugares o atractivos claves de la ruta religiosa/IGLESIAS (1).jpg',
+        '/religiosa/imagenes/Otros lugares o atractivos claves de la ruta religiosa/IGLESIAS (9).jpg',
+        '/religiosa/imagenes/Otros lugares o atractivos claves de la ruta religiosa/IGLESIAS (10).jpg',
+        '/religiosa/imagenes/Otros lugares o atractivos claves de la ruta religiosa/IGLESIAS (11).jpg',
+        '/religiosa/imagenes/Otros lugares o atractivos claves de la ruta religiosa/IGLESIAS (12).jpg',
+        '/religiosa/imagenes/Otros lugares o atractivos claves de la ruta religiosa/IGLESIAS (13).jpg',
+        '/religiosa/imagenes/Otros lugares o atractivos claves de la ruta religiosa/IGLESIAS (14).jpg',
+        '/religiosa/imagenes/Otros lugares o atractivos claves de la ruta religiosa/IGLESIAS (15).jpg'
+      ],
+      otherAttractionsMapUrl: 'https://www.google.com/maps/d/u/0/edit?mid=1QqWy0qN9uo4-4Wb1VG1Uhmrxode_pbk&usp=sharing'
+    }
   },
   {
     id: 'exp-urbana',
